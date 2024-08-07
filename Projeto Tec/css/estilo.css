@@ -38,7 +38,7 @@ body {
 .logo a {
 	position: absolute;
 	top: 15px;
-	left: 100px;
+	left: 10px;
 	z-index: 3;
 	background:  no-repeat;
 	width: 1024px;
@@ -47,7 +47,7 @@ body {
 	text-indent: -9000px;
 }
 .logo img{
-	padding-left: 10%;
+	padding-left: 5%;
 }
 #area-menu {
 	position: absolute;
@@ -90,6 +90,7 @@ a.reserva {
 	color: #fff5b0;
 	padding: 5px 10px;
 	float: right;
+	clear: both;
 }
 
 /* Barra de navegação vertical
@@ -103,7 +104,7 @@ ul {
 }
 
 ul#navegacao {
-	float: left;
+	float: center;
 }
 
 ul#navegacao a {
@@ -111,18 +112,14 @@ ul#navegacao a {
 	font-size: 0.8em;
 	padding: 5px;
 	color: #6e672c;
-	line-height: 30px;
+	line-height: 27px;
 }
 
 ul#navegacao a:hover {
 	background: #fdf6be;
 }
 
-.depoimento {
-	width: 226px;
-	height: 164px;
-	float: right;
-}
+
 
 /* Área de conteúdos
 ************************/
@@ -137,7 +134,7 @@ ul#navegacao a:hover {
 	float: right;
 	width: 50%;
 	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
-	padding: 20px 0px;
+	padding: 15px 0px;
 }
 
 .conteudo {
@@ -171,6 +168,7 @@ p {
 /* Formatações da area lateral
 */
 #beneficios li {
+	clear: both;
 	padding: 8px;
 	border-bottom: 1px solid #f3efcb;
 	height: 6em;
@@ -200,7 +198,7 @@ p {
 
 #video {
 	clear:both;
-	padding: 130px;
+	padding: 7%;
 	width: 560px;
 	height: 315px;
 	
