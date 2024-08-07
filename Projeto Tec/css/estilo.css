@@ -40,21 +40,24 @@ body {
 	top: 15px;
 	left: 100px;
 	z-index: 3;
-	background: url(../imagens/Go-For-Your-Dreams-06-08-2024.jpg) no-repeat;
+	background:  no-repeat;
 	width: 1024px;
 	height: 326px;
 	background-size: 55%;
 	text-indent: -9000px;
 }
-
+.logo img{
+	padding-left: 10%;
+}
 #area-menu {
 	position: absolute;
 	top: 0;
 	right: 0;
-	background: url(../imagens/topo-imagem-lateral.png) no-repeat; ;
-	width: 450px;
-	height: 250px;
+	background:  no-repeat; ;
+	width: 40%;
+	height: 40%;
 	z-index: 2;
+	min-width: 20%;
 }
 
 #conteudo-menu {
@@ -202,40 +205,3 @@ p {
 	height: 315px;
 	
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
